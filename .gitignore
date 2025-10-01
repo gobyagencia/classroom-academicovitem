@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nuxt
 .nuxt
 .output
@@ -29,11 +30,67 @@ Thumbs.db
 # Logs
 logs
 *.log
+=======
+# Dependencias
+node_modules/
+vendor/
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+laravel.log
+
+# Sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de entorno (NO SUBIR CREDENCIALES)
+.env.local
+.env.production
+.env.development
+.env.testing
+
+# Laravel
+storage/framework/cache/
+storage/framework/views/
+bootstrap/cache/
+storage/logs/
+
+# Nuxt
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# OS
+*.tgz
+*.tar.gz
+
+# Backup files
+*.backup
+*.bak
+>>>>>>> origin/main
 
 # Runtime data
 pids
 *.pid
 *.seed
+<<<<<<< HEAD
 *.pid.lock
 
 # Coverage directory used by tools like istanbul
@@ -55,3 +112,6 @@ backend/.env
 # Frontend specific
 frontend/node_modules
 frontend/.env
+=======
+*.pid.lock
+>>>>>>> origin/main
